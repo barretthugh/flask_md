@@ -11,4 +11,4 @@ RUN pip install -r /requirement.txt
 
 EXPOSE 2017
 
-#CMD ["python", "app.py"]
+CMD ["python", "app.py"]
