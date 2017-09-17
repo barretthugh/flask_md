@@ -9,7 +9,7 @@ import re
 
 # create the app
 # TODO: load config/template from files, with fallbacks
-app = Flask(__name__, static_folder="assets")
+app = Flask(__name__, static_folder="/MD/assets")
 #Markdown(app)
 root_dir = os.path.expanduser('/MD')
 template = """
